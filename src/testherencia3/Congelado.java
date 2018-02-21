@@ -9,6 +9,9 @@ package testherencia3;
  *
  * @author fernandocardoce
  */
+
+//Esta clase es abstracta porque no creo que deba ser instanciada y a futuro puede
+//tener metodos abstractos implementados por los tipos de congelado
 public abstract class Congelado extends Fresco{
     private Double TempMantRecomendada;
 
